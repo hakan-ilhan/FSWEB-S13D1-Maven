@@ -42,8 +42,8 @@ public class Main {
 
     public static double area(double radius) {
         if (radius > 0) {
-            double result1 = radius*radius*Math.PI;
-            return result1;
+            double result2 = radius*radius*Math.PI;
+            return result2;
         } else {
             return -1;
         }

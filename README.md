@@ -47,7 +47,7 @@ hasTeen(22, 23, 34); => false dönemli(Hiçbir değer 13-19 arasında değil.)
 * Kedimiz sıcaklık 25 ile 35 arasındaysa oyun oynuyor olucak. Eğer mevsim yaz değilse. Mevsim yaz ise üst limit 35 yerine 45 olmalı.
 * ```isCatPlaying``` isimli 2 tane parametre alan bir metod yazmak istiyoruz. Eğer kedi oyun oynuyorsa metodumuz ```true``` değer dönecek. Oyun oynamıyorsa ```false``` değer dönecek.
 * İlk parametre ```boolean``` değer tutmalı ve mevsimin yaz olup olmadığını kontrol etmeli
-* İkinci parametre ```int``` olamlı ve sıcaklık değerini tutmalı.
+* İkinci parametre ```int``` olmalı ve sıcaklık değerini tutmalı.
 
 
 isCatPlaying(true, 10); => false dönmeli(sıcaklık 25-45 arasında olmalıydı)
